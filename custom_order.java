@@ -12,22 +12,22 @@ public class custom_order {
     // TEST CODE
     
     // STEP 2 CREATE A SCANNER OBEJCT, DECLARE VARAIBLES, & PRINT STATEMENTS
-	Scanner keyboard = new Scanner (System.in);
-	String firstName;
-	String itemOrder;
-	String frostingType;
-	String fillingType;
-	String toppings;
-	String input;
+			Scanner keyboard = new Scanner (System.in);
+			String firstName;
+			String itemOrder;
+			String frostingType;
+			String fillingType;
+			String toppings;
+			String input;
 			
-	double cost = 15.00;
-	final double TAX_RATE = .08;
-	double tax;
+			double cost = 15.00;
+			final double TAX_RATE = .08;
+			double tax;
 
 			 
-	// Introduce shop and prompt user to input first name
-	System.out.println("Welcome to Java's Cake & Cupcake Shop!");
-	System.out.println("We make custom cakes with our secret cake batter!");
+			// Introduce shop and prompt user to input first name
+			System.out.println("Welcome to Java's Cake & Cupcake Shop!");
+			System.out.println("We make custom cakes with our secret cake batter!");
     // TEST CODE
     
     // STEP 3 INPUT YOUR NAME AND PREPARE TO VIEW MENU
