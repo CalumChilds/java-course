@@ -31,20 +31,34 @@ public class custom_order {
     // TEST CODE
     
     // STEP 3 INPUT YOUR NAME AND PREPARE TO VIEW MENU
-   
+   		System.out.print("What is your first name?");
+   		firstName = keyboard.nextLine();
+
+   		System.out.print(firstName + ", please see our MENU below: ");
+   		System.out.print("\n");
 	  
       
     // TEST CODE     
     
     // STEP 4 DISPLAY MENU
-
+				System.out.println("_______________________________________________");      
+				System.out.println("        MENU         QUANTITY    BASE COST  ");
+				System.out.println("_______________________________________________"); 
+				System.out.println("        Cake                     1            $15     ");
+				System.out.println("   Set of Cupcakes       6            $15     ");
+				System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+				System.out.println("Frostings (vanilla, chocolate, strawberry, coco)");
+				System.out.println("Fillings (mocha, mint, lemon, caramel, vanilla)");
+				System.out.println("Toppings (sprinkles, cinnamon, cocoa, nuts)");
+				System.out.println("_______________________________________________");
 	
       
 
     // TEST CODE     
     
     // STEP 5 PROMPT USER TO ORDER
-
+				System.out.println("Do you want CUPCAKES or a CAKE?");
+				itemOrder = keyboard.nextLine();
   
 	  
 	  
@@ -53,7 +67,8 @@ public class custom_order {
     // TEST CODE
       
     // STEP 6 PROMPT USER TO CHOOSE FROSTING
-
+				System.out.println("What type of FROSTING do you want? ");
+				frostingType = keyboard.nextLine();
    
 	 
 	 
@@ -62,7 +77,8 @@ public class custom_order {
     //TEST CODE
       
     // STEP 7 PROMPT USER TO CHOOSE FILLING
-
+				System.out.println("What type of FILLING do you want? ");
+				System.out.println("Mocha, Mint, Lemon, Caramel or Raspberry");
 
 	  
 	  
